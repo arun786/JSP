@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<%= "Welcome " + request.getParameter("uname") %>
-	
+	<%!int data = 50;%>
+	<%="Value of the variable is " + data%>
 </body>
 </html>
