@@ -8,9 +8,13 @@
 </head>
 <body>
 
+
+	<!-- Include directive is used for displaying static content of the file -->
 	<%@ include file="copyright.txt"%>
 
-	<% out.println("<br/>"); %>
+	<%
+		out.println("<br/>");
+	%>
 	<%@ include file="/jsp/URLParameter/copyrightindifferentdirectory.txt"%>
 </body>
 </html>
