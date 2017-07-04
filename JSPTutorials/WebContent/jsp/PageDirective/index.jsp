@@ -19,8 +19,11 @@ Three kinds of Directive
 
 It starts with <%@ %>
  --%>
-	<%@ page import="java.util.Date"%>
+	<%@ page import="java.util.Date, com.arun.TextOutPut"%>
 
-	<%= new Date() %>
+	<%=new Date()%>
+	<br>
+	<%=new TextOutPut().getInfo()%>
+
 </body>
 </html>
